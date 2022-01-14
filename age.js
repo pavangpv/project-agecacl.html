@@ -2,7 +2,7 @@ const months=(31,28,31,30,31,30,31,31,30,31,30,31)
 
 function agecalc() {
     let today = new Date();
-    let inputDate = new Date(document.getElementById("date").value)
+    let inputDate = new Date(document.getElementById("date").value);
 let birthMonth,birthDate,birthYear;
 
 let birthDetails = {
