@@ -15,7 +15,7 @@ let currentYear=today.getFullYear();
 let currentMonth=today.getMonth()+1;
 let currentDate=today.getDate();
 
-leapChecker(currentYear)
+leapChecker(currentYear);
 if(
     birthDetails.year > currentYear || 
     ( birthDetails.month > currentMonth &&
