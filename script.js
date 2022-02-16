@@ -1,4 +1,4 @@
-script.js
+
 function calculate(){
     let dob = document.getElementById("input").value;
     let bday= new Date(dob);
